@@ -1,0 +1,186 @@
+I0207 06:15:08.858001       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-image@sha256:3f488461ec89741aa4a693cbde683d6abe8e1427e2dec25bb99c5ddf81e39339 as /functions/set-image
+I0207 06:15:08.858095       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-image:latest as /functions/set-image
+I0207 06:15:08.858100       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.2 as /functions/set-image
+I0207 06:15:08.858104       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-namespace@sha256:744d6bee447d42891a0ae09fa33f0dd8df43fdb71f6df3eecc0c1a4756f53b0e as /functions/set-namespace
+I0207 06:15:08.858108       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-namespace:latest as /functions/set-namespace
+I0207 06:15:08.858112       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.2 as /functions/set-namespace
+I0207 06:15:08.858115       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/upsert-resource@sha256:e7c19a7dbfb391506ccb021d6b6dc35152c019eed962e16f98831850600ccf40 as /functions/upsert-resource
+I0207 06:15:08.858118       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/upsert-resource:latest as /functions/upsert-resource
+I0207 06:15:08.858121       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.1 as /functions/upsert-resource
+I0207 06:15:08.858126       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-project-id@sha256:bd4a262d125b48127fae24c97828f2414a1fb7547a98ced849eba18dcef51b58 as /functions/set-project-id
+I0207 06:15:08.858130       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-project-id:latest as /functions/set-project-id
+I0207 06:15:08.858133       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.1 as /functions/set-project-id
+I0207 06:15:08.858136       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/apply-setters@sha256:b13f1cb460e04461290c6a43dbd9c76c8e0d7eced95d5c7a0e8a80ea2253204d as /functions/apply-setters
+I0207 06:15:08.858140       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/apply-setters:latest as /functions/apply-setters
+I0207 06:15:08.858143       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.2 as /functions/apply-setters
+I0207 06:15:08.858149       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/search-replace@sha256:68149a9d65ff8e0da26c57a74f828ac93573fb7211b06c63802107b8d159145d as /functions/search-replace
+I0207 06:15:08.858152       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/search-replace:latest as /functions/search-replace
+I0207 06:15:08.858156       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.1 as /functions/search-replace
+I0207 06:15:08.858159       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring@sha256:d1c3450f7e23fbc165ebdba258b4cd27bd22a0c5976ddd82f0d68af37ebc5591 as /functions/ensure-name-substring
+I0207 06:15:08.858176       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:latest as /functions/ensure-name-substring
+I0207 06:15:08.858182       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.1 as /functions/ensure-name-substring
+I0207 06:15:08.858185       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-annotations@sha256:cc7461139e070ffe36e9bb126b7c1818008f851a08a8a1dbb126b98366df068c as /functions/set-annotations
+I0207 06:15:08.858189       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-annotations:latest as /functions/set-annotations
+I0207 06:15:08.858193       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.5 as /functions/set-annotations
+I0207 06:15:08.858197       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-labels@sha256:584115f2212bc154ba34412063f19711b19237ff05b312c2947f49a365429e3e as /functions/set-labels
+I0207 06:15:08.858200       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-labels:latest as /functions/set-labels
+I0207 06:15:08.858204       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.2.2 as /functions/set-labels
+I0207 06:15:08.858208       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/starlark@sha256:95805cafaffa63449e9885c10a9c00bfc3f75c9794ee14b78e4723dcc9c71e76 as /functions/starlark
+I0207 06:15:08.858211       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/starlark:latest as /functions/starlark
+I0207 06:15:08.858222       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/starlark:v0.5.2 as /functions/starlark
+I0207 06:15:08.858533       1 envvar.go:172] "Feature gate default state" feature="ClientsPreferCBOR" enabled=false
+I0207 06:15:08.858554       1 envvar.go:172] "Feature gate default state" feature="InOrderInformers" enabled=true
+I0207 06:15:08.858560       1 envvar.go:172] "Feature gate default state" feature="InformerResourceVersion" enabled=false
+I0207 06:15:08.858566       1 envvar.go:172] "Feature gate default state" feature="WatchListClient" enabled=false
+I0207 06:15:08.858571       1 envvar.go:172] "Feature gate default state" feature="ClientsAllowCBOR" enabled=false
+I0207 06:15:08.858890       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.0 with TTL 30m
+I0207 06:15:08.858883       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/starlark:v0.4.3 with TTL 30m
+I0207 06:15:08.858890       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.0 with TTL 30m
+I0207 06:15:08.858954       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/enable-gcp-services:v0.1.0 with TTL 30m
+I0207 06:15:08.859658       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.0 with TTL 30m
+I0207 06:15:08.859676       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/kubeconform:v0.1.1 with TTL 30m
+I0207 06:15:08.859659       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.1 with TTL 30m
+I0207 06:15:08.859632       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/export-terraform:v0.1.0 with TTL 30m
+I0207 06:15:08.859644       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.0 with TTL 30m
+I0207 06:15:08.859126       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/generate-folders:v0.1.1 with TTL 30m
+I0207 06:15:08.859734       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/create-setters:v0.1.0 with TTL 30m
+I0207 06:15:08.859810       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/gatekeeper:v0.2.1 with TTL 30m
+I0207 06:15:08.859822       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.1 with TTL 30m
+I0207 06:15:08.859828       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.4 with TTL 30m
+I0207 06:15:08.859653       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/apply-replacements:v0.1.1 with TTL 30m
+I0207 06:15:08.859644       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.0 with TTL 30m
+I0207 06:15:08.859645       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.1.5 with TTL 30m
+I0207 06:15:08.859646       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-enforcement-action:v0.1.0 with TTL 30m
+I0207 06:15:08.859640       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/remove-local-config-resources:v0.1.0 with TTL 30m
+I0207 06:15:09.160145       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.0 took 298.90966ms
+I0207 06:15:09.160150       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/starlark:v0.4.3 took 301.219232ms
+I0207 06:15:09.160150       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.0 took 300.153445ms
+I0207 06:15:09.162440       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.0 took 303.498268ms
+I0207 06:15:09.164979       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/export-terraform:v0.1.0 took 304.973585ms
+I0207 06:15:09.165058       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/gatekeeper:v0.2.1 took 304.913196ms
+I0207 06:15:09.165153       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/enable-gcp-services:v0.1.0 took 306.153957ms
+I0207 06:15:09.165152       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-enforcement-action:v0.1.0 took 303.795591ms
+I0207 06:15:09.173125       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.0 took 314.206052ms
+I0207 06:15:09.173474       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/apply-replacements:v0.1.1 took 312.334125ms
+I0207 06:15:09.173794       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.0 took 313.917008ms
+I0207 06:15:09.174121       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.4 took 313.081504ms
+I0207 06:15:09.174377       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/create-setters:v0.1.0 took 314.23962ms
+I0207 06:15:09.174883       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.1 took 314.03307ms
+I0207 06:15:09.175091       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/remove-local-config-resources:v0.1.0 took 313.68652ms
+I0207 06:15:09.175435       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.1.5 took 314.131993ms
+I0207 06:15:09.175615       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.1 took 315.637246ms
+I0207 06:15:09.177019       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/generate-folders:v0.1.1 took 316.957506ms
+I0207 06:15:09.192135       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/upsert-resource-77196bdb for "ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.0"
+I0207 06:15:09.193217       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/enable-gcp-services-a56558d5 for "ghcr.io/kptdev/krm-functions-catalog/enable-gcp-services:v0.1.0"
+I0207 06:15:09.194718       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/upsert-resource-77196bdb
+I0207 06:15:09.195246       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/enable-gcp-services-a56558d5
+I0207 06:15:09.196700       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/ensure-name-substring-33ff7d9a for "ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.0"
+I0207 06:15:09.197160       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/set-project-id-966c9e51 for "ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.0"
+I0207 06:15:09.197896       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/gatekeeper-a1c19318 for "ghcr.io/kptdev/krm-functions-catalog/gatekeeper:v0.2.1"
+I0207 06:15:09.198640       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/generate-folders-4511c517 for "ghcr.io/kptdev/krm-functions-catalog/generate-folders:v0.1.1"
+I0207 06:15:09.199023       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/set-image-49c7a466 for "ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.1"
+I0207 06:15:09.199497       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/ensure-name-substring-33ff7d9a
+I0207 06:15:09.199654       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/set-labels-0dfc3c8a for "ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.1.5"
+I0207 06:15:09.199780       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/set-annotations-76d65ebd for "ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.4"
+I0207 06:15:09.199806       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/remove-local-config-resources-2825914e for "ghcr.io/kptdev/krm-functions-catalog/remove-local-config-resources:v0.1.0"
+I0207 06:15:09.199784       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/set-project-id-966c9e51
+I0207 06:15:09.200168       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/apply-replacements-85913d4e for "ghcr.io/kptdev/krm-functions-catalog/apply-replacements:v0.1.1"
+I0207 06:15:09.200217       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/create-setters-0220cc87 for "ghcr.io/kptdev/krm-functions-catalog/create-setters:v0.1.0"
+I0207 06:15:09.200269       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/export-terraform-571fedd3 for "ghcr.io/kptdev/krm-functions-catalog/export-terraform:v0.1.0"
+I0207 06:15:09.200299       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/gatekeeper-a1c19318
+I0207 06:15:09.200311       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/set-namespace-f930d924 for "ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.1"
+I0207 06:15:09.200923       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/starlark-6ba3971c for "ghcr.io/kptdev/krm-functions-catalog/starlark:v0.4.3"
+I0207 06:15:09.201040       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/set-enforcement-action-aea09be3 for "ghcr.io/kptdev/krm-functions-catalog/set-enforcement-action:v0.1.0"
+I0207 06:15:09.201154       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/apply-setters-4d429572 for "ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.0"
+I0207 06:15:09.201216       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/search-replace-6864b06b for "ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.0"
+I0207 06:15:09.201306       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/generate-folders-4511c517
+I0207 06:15:09.201645       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/set-image-49c7a466
+I0207 06:15:09.202193       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/remove-local-config-resources-2825914e
+I0207 06:15:09.202294       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/set-labels-0dfc3c8a
+I0207 06:15:09.202519       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/apply-replacements-85913d4e
+I0207 06:15:09.202697       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/create-setters-0220cc87
+I0207 06:15:09.202745       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/set-annotations-76d65ebd
+I0207 06:15:09.202924       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/set-namespace-f930d924
+I0207 06:15:09.203508       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/starlark-6ba3971c
+I0207 06:15:09.203524       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/set-enforcement-action-aea09be3
+I0207 06:15:09.203570       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/export-terraform-571fedd3
+I0207 06:15:09.203658       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/apply-setters-4d429572
+I0207 06:15:09.203789       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/search-replace-6864b06b
+I0207 06:15:09.263033       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/kubeconform:v0.1.1 took 403.106505ms
+I0207 06:15:09.268779       1 podevaluator.go:886] retrieved function evaluator pod porch-fn-system/kubeconform-4a1c76b8 for "ghcr.io/kptdev/krm-functions-catalog/kubeconform:v0.1.1"
+I0207 06:15:09.271452       1 podevaluator.go:1039] retrieved function evaluator service porch-fn-system/kubeconform-4a1c76b8
+I0207 06:15:27.104831       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/create-setters:v0.1.0
+I0207 06:15:27.203583       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/starlark:v0.4.3
+I0207 06:15:27.704106       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.4
+I0207 06:15:30.038187       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/kubeconform:v0.1.1
+I0207 06:15:30.970957       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.0
+I0207 06:15:32.603436       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/gatekeeper:v0.2.1
+I0207 06:15:32.836730       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.0
+I0207 06:15:33.955296       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/remove-local-config-resources:v0.1.0
+I0207 06:15:37.202825       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/generate-folders:v0.1.1
+I0207 06:15:38.737958       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/export-terraform:v0.1.0
+I0207 06:15:39.904873       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.1.5
+I0207 06:15:40.838701       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.0
+I0207 06:15:41.804925       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.0
+I0207 06:15:42.704444       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.1
+I0207 06:15:43.737878       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-enforcement-action:v0.1.0
+I0207 06:15:43.804625       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.0
+I0207 06:15:44.703328       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/enable-gcp-services:v0.1.0
+I0207 06:15:45.808091       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.1
+I0207 06:15:46.808700       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/apply-replacements:v0.1.1
+I0207 06:15:46.808759       1 podevaluator.go:253] cache warming is completed and it took 37.950098211s
+I0207 06:15:46.808782       1 server.go:133] Listening on :9445
+I0208 05:54:06.720620       1 podevaluator.go:698] getting image metadata for gcr.io/kpt-fn/apply-setters:v0.2 took 724.265643ms
+I0208 05:54:06.735559       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/apply-setters-4d429572-cb5jv for "gcr.io/kpt-fn/apply-setters:v0.2"
+I0208 05:54:06.752668       1 podevaluator.go:1077] created frontend service apply-setters-4d429572 for function evaluator pod
+I0208 05:54:17.357468       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 11.3611616s
+I0208 05:54:17.946798       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 05:54:17.962221       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 21.793195ms
+I0208 05:54:17.993799       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 05:54:18.006094       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 18.315923ms
+I0208 05:54:38.647906       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 05:54:38.663869       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 23.034588ms
+I0208 05:54:38.697429       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 05:54:38.716113       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 25.049504ms
+I0208 06:03:08.402030       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:03:08.417036       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 22.660434ms
+I0208 06:03:09.169183       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:03:09.183001       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 19.072459ms
+I0208 06:03:09.217173       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:03:09.235364       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 25.568372ms
+I0208 06:04:26.348837       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:04:26.363647       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 21.544931ms
+I0208 06:04:26.395985       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:04:26.411669       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 21.96315ms
+I0208 06:09:09.579810       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:09:09.593840       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 20.536114ms
+I0208 06:09:10.321193       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:09:10.335729       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 21.339354ms
+I0208 06:09:10.355303       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:09:10.366153       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 16.681739ms
+I0208 06:09:34.443929       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:09:34.459698       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 23.248348ms
+I0208 06:09:34.478764       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:09:34.491049       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 17.887586ms
+I0208 06:10:57.883515       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:10:57.895664       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 19.352145ms
+I0208 06:10:59.945013       1 podevaluator.go:698] getting image metadata for docker.io/nephio/nad-fn:v3.0.0 took 2.041736113s
+I0208 06:10:59.960501       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/nad-fn-ef66e2fe-vdcng for "docker.io/nephio/nad-fn:v3.0.0"
+I0208 06:10:59.977734       1 podevaluator.go:1077] created frontend service nad-fn-ef66e2fe for function evaluator pod
+I0208 06:11:06.297443       1 podevaluator.go:168] evaluating docker.io/nephio/nad-fn:v3.0.0 in pod took 8.39420722s
+I0208 06:11:07.084387       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:11:07.094863       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 16.995757ms
+I0208 06:11:07.106343       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/nad-fn-ef66e2fe-vdcng to evaluate docker.io/nephio/nad-fn:v3.0.0
+I0208 06:11:07.133490       1 podevaluator.go:168] evaluating docker.io/nephio/nad-fn:v3.0.0 in pod took 32.707202ms
+I0208 06:11:07.143671       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:11:07.151742       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 13.526853ms
+I0208 06:11:07.164905       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/nad-fn-ef66e2fe-vdcng to evaluate docker.io/nephio/nad-fn:v3.0.0
+I0208 06:11:07.191155       1 podevaluator.go:168] evaluating docker.io/nephio/nad-fn:v3.0.0 in pod took 31.852551ms
+I0208 06:11:38.308085       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:11:38.320648       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 19.986174ms
+I0208 06:11:38.334642       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/nad-fn-ef66e2fe-vdcng to evaluate docker.io/nephio/nad-fn:v3.0.0
+I0208 06:11:38.363945       1 podevaluator.go:168] evaluating docker.io/nephio/nad-fn:v3.0.0 in pod took 35.203872ms
+I0208 06:11:38.376495       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-cb5jv to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 06:11:38.383933       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 12.46988ms
+I0208 06:11:38.395099       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/nad-fn-ef66e2fe-vdcng to evaluate docker.io/nephio/nad-fn:v3.0.0
+I0208 06:11:38.416965       1 podevaluator.go:168] evaluating docker.io/nephio/nad-fn:v3.0.0 in pod took 27.737589ms

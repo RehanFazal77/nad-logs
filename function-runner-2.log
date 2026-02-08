@@ -1,0 +1,230 @@
+I0207 06:15:06.193811       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-image@sha256:3f488461ec89741aa4a693cbde683d6abe8e1427e2dec25bb99c5ddf81e39339 as /functions/set-image
+I0207 06:15:06.193932       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-image:latest as /functions/set-image
+I0207 06:15:06.193936       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.2 as /functions/set-image
+I0207 06:15:06.193940       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-namespace@sha256:744d6bee447d42891a0ae09fa33f0dd8df43fdb71f6df3eecc0c1a4756f53b0e as /functions/set-namespace
+I0207 06:15:06.193945       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-namespace:latest as /functions/set-namespace
+I0207 06:15:06.193948       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.2 as /functions/set-namespace
+I0207 06:15:06.193951       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/upsert-resource@sha256:e7c19a7dbfb391506ccb021d6b6dc35152c019eed962e16f98831850600ccf40 as /functions/upsert-resource
+I0207 06:15:06.193955       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/upsert-resource:latest as /functions/upsert-resource
+I0207 06:15:06.193958       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.1 as /functions/upsert-resource
+I0207 06:15:06.193962       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-project-id@sha256:bd4a262d125b48127fae24c97828f2414a1fb7547a98ced849eba18dcef51b58 as /functions/set-project-id
+I0207 06:15:06.193966       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-project-id:latest as /functions/set-project-id
+I0207 06:15:06.193969       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.1 as /functions/set-project-id
+I0207 06:15:06.193973       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/apply-setters@sha256:b13f1cb460e04461290c6a43dbd9c76c8e0d7eced95d5c7a0e8a80ea2253204d as /functions/apply-setters
+I0207 06:15:06.193976       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/apply-setters:latest as /functions/apply-setters
+I0207 06:15:06.193979       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.2 as /functions/apply-setters
+I0207 06:15:06.193985       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/search-replace@sha256:68149a9d65ff8e0da26c57a74f828ac93573fb7211b06c63802107b8d159145d as /functions/search-replace
+I0207 06:15:06.193989       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/search-replace:latest as /functions/search-replace
+I0207 06:15:06.193993       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.1 as /functions/search-replace
+I0207 06:15:06.193996       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring@sha256:d1c3450f7e23fbc165ebdba258b4cd27bd22a0c5976ddd82f0d68af37ebc5591 as /functions/ensure-name-substring
+I0207 06:15:06.194016       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:latest as /functions/ensure-name-substring
+I0207 06:15:06.194028       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.1 as /functions/ensure-name-substring
+I0207 06:15:06.194041       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-annotations@sha256:cc7461139e070ffe36e9bb126b7c1818008f851a08a8a1dbb126b98366df068c as /functions/set-annotations
+I0207 06:15:06.194045       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-annotations:latest as /functions/set-annotations
+I0207 06:15:06.194050       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.5 as /functions/set-annotations
+I0207 06:15:06.194053       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-labels@sha256:584115f2212bc154ba34412063f19711b19237ff05b312c2947f49a365429e3e as /functions/set-labels
+I0207 06:15:06.194057       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-labels:latest as /functions/set-labels
+I0207 06:15:06.194061       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.2.2 as /functions/set-labels
+I0207 06:15:06.194065       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/starlark@sha256:95805cafaffa63449e9885c10a9c00bfc3f75c9794ee14b78e4723dcc9c71e76 as /functions/starlark
+I0207 06:15:06.194069       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/starlark:latest as /functions/starlark
+I0207 06:15:06.194076       1 executableevaluator.go:77] Caching ghcr.io/kptdev/krm-functions-catalog/starlark:v0.5.2 as /functions/starlark
+I0207 06:15:06.194416       1 envvar.go:172] "Feature gate default state" feature="InformerResourceVersion" enabled=false
+I0207 06:15:06.194438       1 envvar.go:172] "Feature gate default state" feature="WatchListClient" enabled=false
+I0207 06:15:06.194445       1 envvar.go:172] "Feature gate default state" feature="ClientsAllowCBOR" enabled=false
+I0207 06:15:06.194451       1 envvar.go:172] "Feature gate default state" feature="ClientsPreferCBOR" enabled=false
+I0207 06:15:06.194456       1 envvar.go:172] "Feature gate default state" feature="InOrderInformers" enabled=true
+I0207 06:15:06.194797       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/apply-replacements:v0.1.1 with TTL 30m
+I0207 06:15:06.194851       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.4 with TTL 30m
+I0207 06:15:06.194890       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/remove-local-config-resources:v0.1.0 with TTL 30m
+I0207 06:15:06.194952       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.1 with TTL 30m
+I0207 06:15:06.195039       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.1.5 with TTL 30m
+I0207 06:15:06.194942       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/starlark:v0.4.3 with TTL 30m
+I0207 06:15:06.195806       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/create-setters:v0.1.0 with TTL 30m
+I0207 06:15:06.195872       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/kubeconform:v0.1.1 with TTL 30m
+I0207 06:15:06.195872       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.0 with TTL 30m
+I0207 06:15:06.195963       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/enable-gcp-services:v0.1.0 with TTL 30m
+I0207 06:15:06.195894       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/export-terraform:v0.1.0 with TTL 30m
+I0207 06:15:06.195981       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.0 with TTL 30m
+I0207 06:15:06.195209       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.0 with TTL 30m
+I0207 06:15:06.196018       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.0 with TTL 30m
+I0207 06:15:06.195844       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/gatekeeper:v0.2.1 with TTL 30m
+I0207 06:15:06.195855       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.1 with TTL 30m
+I0207 06:15:06.195882       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-enforcement-action:v0.1.0 with TTL 30m
+I0207 06:15:06.195804       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/generate-folders:v0.1.1 with TTL 30m
+I0207 06:15:06.195840       1 podevaluator.go:267] preloading pod cache for function ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.0 with TTL 30m
+I0207 06:15:06.673532       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.4 took 478.651766ms
+I0207 06:15:06.673575       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/remove-local-config-resources:v0.1.0 took 478.598051ms
+I0207 06:15:06.673667       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.1 took 478.669978ms
+I0207 06:15:06.673887       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/gatekeeper:v0.2.1 took 477.712287ms
+I0207 06:15:06.676132       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.1 took 479.929493ms
+I0207 06:15:06.676160       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.1.5 took 481.103681ms
+I0207 06:15:06.679264       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/generate-folders:v0.1.1 took 482.995584ms
+I0207 06:15:06.681691       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/starlark:v0.4.3 took 485.801321ms
+I0207 06:15:06.683144       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/enable-gcp-services:v0.1.0 took 487.093816ms
+I0207 06:15:06.685476       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/create-setters:v0.1.0 took 489.562623ms
+I0207 06:15:06.685539       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.0 took 489.398427ms
+I0207 06:15:06.687249       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/kubeconform:v0.1.1 took 491.329032ms
+I0207 06:15:06.687445       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.0 took 491.259062ms
+I0207 06:15:06.687862       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/set-enforcement-action:v0.1.0 took 491.644936ms
+I0207 06:15:06.690803       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.0 took 494.6558ms
+I0207 06:15:06.692383       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/apply-replacements:v0.1.1 took 497.523443ms
+I0207 06:15:06.722609       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.0 took 526.313103ms
+I0207 06:15:06.723684       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/set-annotations-76d65ebd for "ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.4"
+I0207 06:15:06.724352       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/starlark-6ba3971c for "ghcr.io/kptdev/krm-functions-catalog/starlark:v0.4.3"
+I0207 06:15:06.726839       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/set-project-id-966c9e51 for "ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.0"
+I0207 06:15:06.727019       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/search-replace-6864b06b for "ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.0"
+I0207 06:15:06.727070       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/generate-folders-4511c517 for "ghcr.io/kptdev/krm-functions-catalog/generate-folders:v0.1.1"
+I0207 06:15:06.727520       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/gatekeeper-a1c19318 for "ghcr.io/kptdev/krm-functions-catalog/gatekeeper:v0.2.1"
+I0207 06:15:06.727789       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/remove-local-config-resources-2825914e for "ghcr.io/kptdev/krm-functions-catalog/remove-local-config-resources:v0.1.0"
+I0207 06:15:06.727819       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/enable-gcp-services-a56558d5 for "ghcr.io/kptdev/krm-functions-catalog/enable-gcp-services:v0.1.0"
+I0207 06:15:06.727816       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/create-setters-0220cc87 for "ghcr.io/kptdev/krm-functions-catalog/create-setters:v0.1.0"
+I0207 06:15:06.728021       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/apply-setters-4d429572 for "ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.0"
+I0207 06:15:06.728035       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/set-labels-0dfc3c8a for "ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.1.5"
+I0207 06:15:06.728913       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/kubeconform-4a1c76b8 for "ghcr.io/kptdev/krm-functions-catalog/kubeconform:v0.1.1"
+I0207 06:15:06.729142       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/set-namespace-f930d924 for "ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.1"
+I0207 06:15:06.729677       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/apply-replacements-85913d4e for "ghcr.io/kptdev/krm-functions-catalog/apply-replacements:v0.1.1"
+I0207 06:15:06.731229       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/set-image-49c7a466 for "ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.1"
+I0207 06:15:06.731388       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/set-enforcement-action-aea09be3 for "ghcr.io/kptdev/krm-functions-catalog/set-enforcement-action:v0.1.0"
+I0207 06:15:06.752306       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/ensure-name-substring-33ff7d9a for "ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.0"
+I0207 06:15:06.755263       1 podevaluator.go:1077] created frontend service set-project-id-966c9e51 for function evaluator pod
+I0207 06:15:06.766951       1 podevaluator.go:1077] created frontend service search-replace-6864b06b for function evaluator pod
+I0207 06:15:06.773136       1 podevaluator.go:1077] created frontend service set-annotations-76d65ebd for function evaluator pod
+I0207 06:15:06.774616       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.0 took 578.599994ms
+I0207 06:15:06.785348       1 podevaluator.go:698] getting image metadata for ghcr.io/kptdev/krm-functions-catalog/export-terraform:v0.1.0 took 589.292983ms
+I0207 06:15:06.788994       1 podevaluator.go:1077] created frontend service generate-folders-4511c517 for function evaluator pod
+I0207 06:15:06.798486       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/upsert-resource-77196bdb for "ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.0"
+I0207 06:15:06.801571       1 podevaluator.go:1077] created frontend service starlark-6ba3971c for function evaluator pod
+I0207 06:15:06.804208       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/export-terraform-571fedd3 for "ghcr.io/kptdev/krm-functions-catalog/export-terraform:v0.1.0"
+I0207 06:15:06.808937       1 podevaluator.go:1077] created frontend service gatekeeper-a1c19318 for function evaluator pod
+I0207 06:15:06.817677       1 podevaluator.go:1077] created frontend service apply-setters-4d429572 for function evaluator pod
+I0207 06:15:06.825265       1 podevaluator.go:1077] created frontend service set-labels-0dfc3c8a for function evaluator pod
+I0207 06:15:06.837229       1 podevaluator.go:1077] created frontend service remove-local-config-resources-2825914e for function evaluator pod
+I0207 06:15:06.843077       1 podevaluator.go:1077] created frontend service create-setters-0220cc87 for function evaluator pod
+I0207 06:15:06.850228       1 podevaluator.go:1077] created frontend service set-namespace-f930d924 for function evaluator pod
+I0207 06:15:06.858710       1 podevaluator.go:1077] created frontend service kubeconform-4a1c76b8 for function evaluator pod
+I0207 06:15:06.868644       1 podevaluator.go:1077] created frontend service enable-gcp-services-a56558d5 for function evaluator pod
+I0207 06:15:06.875499       1 podevaluator.go:1077] created frontend service apply-replacements-85913d4e for function evaluator pod
+I0207 06:15:06.883243       1 podevaluator.go:1077] created frontend service set-image-49c7a466 for function evaluator pod
+I0207 06:15:06.892992       1 podevaluator.go:1077] created frontend service set-enforcement-action-aea09be3 for function evaluator pod
+I0207 06:15:06.918317       1 podevaluator.go:1077] created frontend service ensure-name-substring-33ff7d9a for function evaluator pod
+I0207 06:15:06.924123       1 podevaluator.go:1077] created frontend service upsert-resource-77196bdb for function evaluator pod
+I0207 06:15:06.932020       1 podevaluator.go:1077] created frontend service export-terraform-571fedd3 for function evaluator pod
+I0207 06:15:26.949127       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/create-setters:v0.1.0
+I0207 06:15:27.182489       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-annotations:v0.1.4
+I0207 06:15:27.381787       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/starlark:v0.4.3
+I0207 06:15:29.815607       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/kubeconform:v0.1.1
+I0207 06:15:30.613597       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/apply-setters:v0.2.0
+I0207 06:15:32.749113       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/search-replace:v0.2.0
+I0207 06:15:32.915594       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/gatekeeper:v0.2.1
+I0207 06:15:33.882379       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/remove-local-config-resources:v0.1.0
+I0207 06:15:37.381776       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/generate-folders:v0.1.1
+I0207 06:15:38.882659       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/export-terraform:v0.1.0
+I0207 06:15:39.782327       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-labels:v0.1.5
+I0207 06:15:40.815725       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/ensure-name-substring:v0.2.0
+I0207 06:15:41.815244       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-project-id:v0.2.0
+I0207 06:15:42.849536       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-namespace:v0.4.1
+I0207 06:15:43.682556       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/upsert-resource:v0.2.0
+I0207 06:15:43.815110       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-enforcement-action:v0.1.0
+I0207 06:15:44.747568       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/enable-gcp-services:v0.1.0
+I0207 06:15:45.789946       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/set-image:v0.1.1
+I0207 06:15:46.882399       1 podevaluator.go:281] preloaded pod cache for function ghcr.io/kptdev/krm-functions-catalog/apply-replacements:v0.1.1
+I0207 06:15:46.882437       1 podevaluator.go:253] cache warming is completed and it took 40.687859458s
+I0207 06:15:46.882456       1 server.go:133] Listening on :9445
+I0207 06:45:06.210944       1 podevaluator.go:461] Found service named apply-replacements-85913d4e with Cluster IP 10.110.133.125
+W0207 06:45:06.211014       1 podevaluator.go:484] IP of Service porch-fn-system/apply-replacements-85913d4e [10.110.133.125] does not match the IP of GRPC client [porch-fn-system] cached for Pod apply-replacements-85913d4e/apply-replacements-85913d4e.porch-fn-system.svc.cluster.local
+I0207 06:45:06.211055       1 podevaluator.go:465] deleting pod porch-fn-system/apply-replacements-85913d4e
+I0207 06:45:06.213849       1 podevaluator.go:461] Found service named apply-setters-4d429572 with Cluster IP 10.104.224.160
+W0207 06:45:06.213888       1 podevaluator.go:484] IP of Service porch-fn-system/apply-setters-4d429572 [10.104.224.160] does not match the IP of GRPC client [porch-fn-system] cached for Pod apply-setters-4d429572/apply-setters-4d429572.porch-fn-system.svc.cluster.local
+I0207 06:45:06.214064       1 podevaluator.go:465] deleting pod porch-fn-system/apply-setters-4d429572
+I0207 06:45:06.218019       1 podevaluator.go:461] Found service named create-setters-0220cc87 with Cluster IP 10.104.110.184
+I0207 06:45:06.218043       1 podevaluator.go:471] deleting service porch-fn-system/apply-replacements-85913d4e
+W0207 06:45:06.218071       1 podevaluator.go:484] IP of Service porch-fn-system/create-setters-0220cc87 [10.104.110.184] does not match the IP of GRPC client [porch-fn-system] cached for Pod create-setters-0220cc87/create-setters-0220cc87.porch-fn-system.svc.cluster.local
+I0207 06:45:06.218121       1 podevaluator.go:465] deleting pod porch-fn-system/create-setters-0220cc87
+I0207 06:45:06.221225       1 podevaluator.go:461] Found service named enable-gcp-services-a56558d5 with Cluster IP 10.99.200.78
+W0207 06:45:06.221266       1 podevaluator.go:484] IP of Service porch-fn-system/enable-gcp-services-a56558d5 [10.99.200.78] does not match the IP of GRPC client [porch-fn-system] cached for Pod enable-gcp-services-a56558d5/enable-gcp-services-a56558d5.porch-fn-system.svc.cluster.local
+I0207 06:45:06.221357       1 podevaluator.go:465] deleting pod porch-fn-system/enable-gcp-services-a56558d5
+I0207 06:45:06.221452       1 podevaluator.go:471] deleting service porch-fn-system/apply-setters-4d429572
+I0207 06:45:06.224772       1 podevaluator.go:461] Found service named ensure-name-substring-33ff7d9a with Cluster IP 10.108.125.111
+I0207 06:45:06.224786       1 podevaluator.go:471] deleting service porch-fn-system/create-setters-0220cc87
+I0207 06:45:06.224846       1 podevaluator.go:465] deleting pod porch-fn-system/ensure-name-substring-33ff7d9a
+W0207 06:45:06.224827       1 podevaluator.go:484] IP of Service porch-fn-system/ensure-name-substring-33ff7d9a [10.108.125.111] does not match the IP of GRPC client [porch-fn-system] cached for Pod ensure-name-substring-33ff7d9a/ensure-name-substring-33ff7d9a.porch-fn-system.svc.cluster.local
+I0207 06:45:06.228229       1 podevaluator.go:461] Found service named export-terraform-571fedd3 with Cluster IP 10.102.67.124
+W0207 06:45:06.228269       1 podevaluator.go:484] IP of Service porch-fn-system/export-terraform-571fedd3 [10.102.67.124] does not match the IP of GRPC client [porch-fn-system] cached for Pod export-terraform-571fedd3/export-terraform-571fedd3.porch-fn-system.svc.cluster.local
+I0207 06:45:06.228328       1 podevaluator.go:471] deleting service porch-fn-system/enable-gcp-services-a56558d5
+I0207 06:45:06.228385       1 podevaluator.go:465] deleting pod porch-fn-system/export-terraform-571fedd3
+I0207 06:45:06.231890       1 podevaluator.go:461] Found service named gatekeeper-a1c19318 with Cluster IP 10.103.219.205
+I0207 06:45:06.231905       1 podevaluator.go:471] deleting service porch-fn-system/ensure-name-substring-33ff7d9a
+W0207 06:45:06.231951       1 podevaluator.go:484] IP of Service porch-fn-system/gatekeeper-a1c19318 [10.103.219.205] does not match the IP of GRPC client [porch-fn-system] cached for Pod gatekeeper-a1c19318/gatekeeper-a1c19318.porch-fn-system.svc.cluster.local
+I0207 06:45:06.232061       1 podevaluator.go:465] deleting pod porch-fn-system/gatekeeper-a1c19318
+I0207 06:45:06.236678       1 podevaluator.go:471] deleting service porch-fn-system/export-terraform-571fedd3
+I0207 06:45:06.238593       1 podevaluator.go:461] Found service named generate-folders-4511c517 with Cluster IP 10.101.87.165
+W0207 06:45:06.238640       1 podevaluator.go:484] IP of Service porch-fn-system/generate-folders-4511c517 [10.101.87.165] does not match the IP of GRPC client [porch-fn-system] cached for Pod generate-folders-4511c517/generate-folders-4511c517.porch-fn-system.svc.cluster.local
+I0207 06:45:06.238753       1 podevaluator.go:465] deleting pod porch-fn-system/generate-folders-4511c517
+I0207 06:45:06.246054       1 podevaluator.go:471] deleting service porch-fn-system/gatekeeper-a1c19318
+I0207 06:45:06.246412       1 podevaluator.go:461] Found service named kubeconform-4a1c76b8 with Cluster IP 10.109.40.64
+W0207 06:45:06.246459       1 podevaluator.go:484] IP of Service porch-fn-system/kubeconform-4a1c76b8 [10.109.40.64] does not match the IP of GRPC client [porch-fn-system] cached for Pod kubeconform-4a1c76b8/kubeconform-4a1c76b8.porch-fn-system.svc.cluster.local
+I0207 06:45:06.246588       1 podevaluator.go:465] deleting pod porch-fn-system/kubeconform-4a1c76b8
+I0207 06:45:06.249109       1 podevaluator.go:471] deleting service porch-fn-system/generate-folders-4511c517
+I0207 06:45:06.249382       1 podevaluator.go:461] Found service named remove-local-config-resources-2825914e with Cluster IP 10.100.120.89
+W0207 06:45:06.249415       1 podevaluator.go:484] IP of Service porch-fn-system/remove-local-config-resources-2825914e [10.100.120.89] does not match the IP of GRPC client [porch-fn-system] cached for Pod remove-local-config-resources-2825914e/remove-local-config-resources-2825914e.porch-fn-system.svc.cluster.local
+I0207 06:45:06.249507       1 podevaluator.go:465] deleting pod porch-fn-system/remove-local-config-resources-2825914e
+I0207 06:45:06.253082       1 podevaluator.go:471] deleting service porch-fn-system/kubeconform-4a1c76b8
+I0207 06:45:06.255307       1 podevaluator.go:461] Found service named search-replace-6864b06b with Cluster IP 10.105.8.73
+W0207 06:45:06.255329       1 podevaluator.go:484] IP of Service porch-fn-system/search-replace-6864b06b [10.105.8.73] does not match the IP of GRPC client [porch-fn-system] cached for Pod search-replace-6864b06b/search-replace-6864b06b.porch-fn-system.svc.cluster.local
+I0207 06:45:06.255393       1 podevaluator.go:465] deleting pod porch-fn-system/search-replace-6864b06b
+I0207 06:45:06.258864       1 podevaluator.go:461] Found service named set-annotations-76d65ebd with Cluster IP 10.99.128.7
+W0207 06:45:06.258885       1 podevaluator.go:484] IP of Service porch-fn-system/set-annotations-76d65ebd [10.99.128.7] does not match the IP of GRPC client [porch-fn-system] cached for Pod set-annotations-76d65ebd/set-annotations-76d65ebd.porch-fn-system.svc.cluster.local
+I0207 06:45:06.258974       1 podevaluator.go:465] deleting pod porch-fn-system/set-annotations-76d65ebd
+I0207 06:45:06.259215       1 podevaluator.go:471] deleting service porch-fn-system/remove-local-config-resources-2825914e
+I0207 06:45:06.262918       1 podevaluator.go:461] Found service named set-enforcement-action-aea09be3 with Cluster IP 10.111.241.48
+W0207 06:45:06.262963       1 podevaluator.go:484] IP of Service porch-fn-system/set-enforcement-action-aea09be3 [10.111.241.48] does not match the IP of GRPC client [porch-fn-system] cached for Pod set-enforcement-action-aea09be3/set-enforcement-action-aea09be3.porch-fn-system.svc.cluster.local
+I0207 06:45:06.263034       1 podevaluator.go:465] deleting pod porch-fn-system/set-enforcement-action-aea09be3
+I0207 06:45:06.263049       1 podevaluator.go:471] deleting service porch-fn-system/search-replace-6864b06b
+I0207 06:45:06.266357       1 podevaluator.go:471] deleting service porch-fn-system/set-annotations-76d65ebd
+I0207 06:45:06.266839       1 podevaluator.go:461] Found service named set-image-49c7a466 with Cluster IP 10.96.40.69
+W0207 06:45:06.266897       1 podevaluator.go:484] IP of Service porch-fn-system/set-image-49c7a466 [10.96.40.69] does not match the IP of GRPC client [porch-fn-system] cached for Pod set-image-49c7a466/set-image-49c7a466.porch-fn-system.svc.cluster.local
+I0207 06:45:06.266983       1 podevaluator.go:465] deleting pod porch-fn-system/set-image-49c7a466
+I0207 06:45:06.269652       1 podevaluator.go:471] deleting service porch-fn-system/set-enforcement-action-aea09be3
+I0207 06:45:06.271164       1 podevaluator.go:461] Found service named set-labels-0dfc3c8a with Cluster IP 10.100.140.220
+W0207 06:45:06.271206       1 podevaluator.go:484] IP of Service porch-fn-system/set-labels-0dfc3c8a [10.100.140.220] does not match the IP of GRPC client [porch-fn-system] cached for Pod set-labels-0dfc3c8a/set-labels-0dfc3c8a.porch-fn-system.svc.cluster.local
+I0207 06:45:06.271285       1 podevaluator.go:465] deleting pod porch-fn-system/set-labels-0dfc3c8a
+I0207 06:45:06.274430       1 podevaluator.go:471] deleting service porch-fn-system/set-image-49c7a466
+I0207 06:45:06.275100       1 podevaluator.go:461] Found service named set-namespace-f930d924 with Cluster IP 10.100.121.54
+W0207 06:45:06.275127       1 podevaluator.go:484] IP of Service porch-fn-system/set-namespace-f930d924 [10.100.121.54] does not match the IP of GRPC client [porch-fn-system] cached for Pod set-namespace-f930d924/set-namespace-f930d924.porch-fn-system.svc.cluster.local
+I0207 06:45:06.275150       1 podevaluator.go:465] deleting pod porch-fn-system/set-namespace-f930d924
+I0207 06:45:06.281405       1 podevaluator.go:471] deleting service porch-fn-system/set-labels-0dfc3c8a
+I0207 06:45:06.290919       1 podevaluator.go:461] Found service named set-project-id-966c9e51 with Cluster IP 10.105.138.1
+W0207 06:45:06.290951       1 podevaluator.go:484] IP of Service porch-fn-system/set-project-id-966c9e51 [10.105.138.1] does not match the IP of GRPC client [porch-fn-system] cached for Pod set-project-id-966c9e51/set-project-id-966c9e51.porch-fn-system.svc.cluster.local
+I0207 06:45:06.291062       1 podevaluator.go:465] deleting pod porch-fn-system/set-project-id-966c9e51
+I0207 06:45:06.300448       1 podevaluator.go:471] deleting service porch-fn-system/set-namespace-f930d924
+I0207 06:45:06.375505       1 podevaluator.go:461] Found service named starlark-6ba3971c with Cluster IP 10.105.122.221
+W0207 06:45:06.375557       1 podevaluator.go:484] IP of Service porch-fn-system/starlark-6ba3971c [10.105.122.221] does not match the IP of GRPC client [porch-fn-system] cached for Pod starlark-6ba3971c/starlark-6ba3971c.porch-fn-system.svc.cluster.local
+I0207 06:45:06.375590       1 podevaluator.go:465] deleting pod porch-fn-system/starlark-6ba3971c
+I0207 06:45:06.385961       1 podevaluator.go:461] Found service named upsert-resource-77196bdb with Cluster IP 10.110.188.174
+W0207 06:45:06.386038       1 podevaluator.go:484] IP of Service porch-fn-system/upsert-resource-77196bdb [10.110.188.174] does not match the IP of GRPC client [porch-fn-system] cached for Pod upsert-resource-77196bdb/upsert-resource-77196bdb.porch-fn-system.svc.cluster.local
+I0207 06:45:06.386091       1 podevaluator.go:465] deleting pod porch-fn-system/upsert-resource-77196bdb
+I0207 06:45:06.386235       1 podevaluator.go:471] deleting service porch-fn-system/set-project-id-966c9e51
+I0207 06:45:06.394011       1 podevaluator.go:471] deleting service porch-fn-system/starlark-6ba3971c
+I0207 06:45:06.394999       1 podevaluator.go:471] deleting service porch-fn-system/upsert-resource-77196bdb
+I0208 04:03:56.940853       1 podevaluator.go:698] getting image metadata for gcr.io/kpt-fn/apply-setters:v0.2 took 754.002876ms
+I0208 04:03:56.957268       1 podevaluator.go:928] created KRM function evaluator pod porch-fn-system/apply-setters-4d429572-wtsth for "gcr.io/kpt-fn/apply-setters:v0.2"
+I0208 04:03:56.975748       1 podevaluator.go:1077] created frontend service apply-setters-4d429572 for function evaluator pod
+I0208 04:04:01.429497       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 5.242689921s
+I0208 04:04:02.091910       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-wtsth to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 04:04:02.123102       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 37.990871ms
+I0208 04:04:02.182530       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-wtsth to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 04:04:02.210331       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 34.317517ms
+I0208 04:04:34.978654       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-wtsth to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 04:04:35.010490       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 38.700117ms
+I0208 04:04:35.070503       1 podevaluator.go:347] reusing the connection to pod porch-fn-system/apply-setters-4d429572-wtsth to evaluate gcr.io/kpt-fn/apply-setters:v0.2
+I0208 04:04:35.096985       1 podevaluator.go:168] evaluating gcr.io/kpt-fn/apply-setters:v0.2 in pod took 32.939207ms
+I0208 04:35:06.208089       1 podevaluator.go:461] Found service named apply-setters-4d429572 with Cluster IP 10.109.254.6
+W0208 04:35:06.208167       1 podevaluator.go:484] IP of Service porch-fn-system/apply-setters-4d429572 [10.109.254.6] does not match the IP of GRPC client [porch-fn-system] cached for Pod apply-setters-4d429572-wtsth/apply-setters-4d429572.porch-fn-system.svc.cluster.local
+I0208 04:35:06.208195       1 podevaluator.go:465] deleting pod porch-fn-system/apply-setters-4d429572-wtsth
+I0208 04:35:06.215046       1 podevaluator.go:471] deleting service porch-fn-system/apply-setters-4d429572
+I0208 06:42:06.205405       1 podevaluator.go:461] Found service named apply-setters-4d429572 with Cluster IP 10.99.236.1
+I0208 06:42:06.205605       1 podevaluator.go:465] deleting pod porch-fn-system/apply-setters-4d429572-cb5jv
+I0208 06:42:06.208629       1 podevaluator.go:461] Found service named nad-fn-ef66e2fe with Cluster IP 10.109.135.32
+I0208 06:42:06.208728       1 podevaluator.go:465] deleting pod porch-fn-system/nad-fn-ef66e2fe-vdcng
+I0208 06:42:06.212512       1 podevaluator.go:471] deleting service porch-fn-system/apply-setters-4d429572
+I0208 06:42:06.222281       1 podevaluator.go:471] deleting service porch-fn-system/nad-fn-ef66e2fe
