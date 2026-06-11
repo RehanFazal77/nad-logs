@@ -1,0 +1,250 @@
+# FOCOM NBI Integration Analysis
+
+## Current Workflow
+
+```text
+                 User
+                   │
+                   │ fills input.json
+                   ▼
+        Apply FocomProvisioningRequest
+                   │
+                   ▼
+                FOCOM
+                   │
+                   ▼
+     Creates O2IMS ProvisioningRequest
+                   │
+                   ▼
+             O2IMS Controller
+                   │
+                   ▼
+            Ansible Runner Pod
+          ┌────────┴─────────┐
+          │                  │
+          ▼                  ▼
+ Register BYOH Hosts    Read input.json
+          │                  │
+          └────────┬─────────┘
+                   ▼
+       Existing CAPI BYOH Template
+                   │
+                   ▼
+         Cluster API Controllers
+                   │
+                   ▼
+      Bare-metal Kubernetes Cluster
+```
+
+## Current User Actions
+
+1. Fill `input.json`
+2. Create/apply `FocomProvisioningRequest`
+3. Wait for automatic provisioning
+
+Everything after that is fully automated.
+
+---
+
+# Workflow After FOCOM NBI Integration
+
+```text
+                SMO / User
+                     │
+                     │ REST API
+                     ▼
+         POST /focom-provisioning-requests/draft
+                     │
+                     ▼
+              FOCOM NBI Server
+                     │
+              Create Draft
+                     │
+                     ▼
+               Validate Request
+                     │
+                     ▼
+              Approve Request
+                     │
+                     ▼
+        Store in Git via Porch (optional)
+                     │
+                     ▼
+        ConfigSync creates CR automatically
+                     │
+                     ▼
+          FocomProvisioningRequest CR
+                     │
+                     ▼
+                  FOCOM
+                     │
+                     ▼
+        Creates O2IMS ProvisioningRequest
+                     │
+                     ▼
+             O2IMS Controller
+                     │
+                     ▼
+            Ansible Runner Pod
+          ┌────────┴─────────┐
+          │                  │
+          ▼                  ▼
+ Register BYOH Hosts    Read input.json
+          │                  │
+          └────────┬─────────┘
+                   ▼
+       Existing CAPI BYOH Template
+                   │
+                   ▼
+         Cluster API Controllers
+                   │
+                   ▼
+      Bare-metal Kubernetes Cluster
+```
+
+---
+
+# What Actually Changes?
+
+## Before
+
+```text
+input.json
+
+↓
+
+kubectl apply FocomProvisioningRequest
+```
+
+## After
+
+```text
+REST API
+
+↓
+
+Draft
+
+↓
+
+Validate
+
+↓
+
+Approve
+
+↓
+
+FocomProvisioningRequest automatically created
+```
+
+**Everything after `FocomProvisioningRequest` remains exactly the same.**
+
+---
+
+# Side-by-Side Comparison
+
+| Current Workflow              | After Integration            |
+| ----------------------------- | ---------------------------- |
+| User creates CR manually      | REST API creates CR          |
+| Manual `kubectl apply`        | Automatic through API/GitOps |
+| No approval workflow          | Draft → Validate → Approve   |
+| Limited audit trail           | Git revision history         |
+| Direct Kubernetes interaction | Standard REST interface      |
+| Provisioning engine           | **Unchanged**                |
+| O2IMS                         | **Unchanged**                |
+| Ansible                       | **Unchanged**                |
+| CAPI BYOH                     | **Unchanged**                |
+| Cluster creation logic        | **Unchanged**                |
+
+**Observation:** More than 80% of the existing project remains unchanged.
+
+---
+
+# Most Important Observation
+
+The provisioning engine starts here:
+
+```text
+FocomProvisioningRequest
+        │
+        ▼
+O2IMS
+        │
+        ▼
+Ansible
+        │
+        ▼
+CAPI BYOH
+        │
+        ▼
+Cluster
+```
+
+The FOCOM NBI **does not modify this pipeline**.
+
+It only changes **how the `FocomProvisioningRequest` is created and managed**.
+
+
+# Benefits of Integration
+
+* Exposes the provisioning engine through a standard REST API.
+* Enables autonomous cluster creation by the SMO.
+* Makes integration with external orchestration systems easier.
+* Adds validation before provisioning.
+* Supports audit trails and versioning if Git/Porch is used.
+* Aligns better with Nephio and O-RAN architectural principles.
+* Keeps the existing provisioning engine unchanged.
+
+---
+
+# Potential Drawbacks
+
+* Introduces additional architectural complexity.
+* Does not improve the actual cluster provisioning logic.
+* Does not reduce provisioning time.
+* Adds components such as REST APIs, validation logic, and possibly Porch/GitOps management.
+* May be unnecessary if the only objective is automated cluster creation.
+
+---
+
+# Architectural Recommendation
+
+Keep the existing provisioning engine unchanged:
+
+```text
+FocomProvisioningRequest
+        │
+        ▼
+O2IMS
+        │
+        ▼
+Ansible
+        │
+        ▼
+CAPI BYOH
+        │
+        ▼
+Cluster
+```
+
+Add the FOCOM NBI only as a **northbound management layer** that creates and manages `FocomProvisioningRequest` resources.
+
+This preserves the proven provisioning pipeline while enabling REST-based orchestration, lifecycle management, and future SMO integration.
+
+---
+
+# Discussion Point 
+
+  Our current provisioning workflow already satisfies the original objective of autonomous bare-metal cluster creation. The proposed FOCOM NBI would not change or improve the provisioning engine itself. Its value lies in providing a standardized REST-based lifecycle management interface with GitOps capabilities, making the solution easier to integrate with SMOs and enterprise orchestration systems. If our goal is simply cluster provisioning, it is additional complexity. If our goal is to build a reusable, production-grade orchestration platform aligned with O-RAN and Nephio, then it becomes a valuable enhancement.
+
+  This is an optional architectural enhancement that makes the solution more enterprise-ready and easier to integrate with higher-level orchestrators, but it does not improve the core provisioning capability.
+  
+ ```Question```
+> **Should we expose our existing provisioning engine through a lightweight REST API for SMO integration, or should we implement a complete GitOps lifecycle management system with draft/validate/approve workflows, revision history, and Porch integration?**
+
+This project can be termed as  **A GitOps-driven O-RAN cluster lifecycle management platform with a RESTful northbound API, FOCOM/O2IMS orchestration, revision-controlled infrastructure definitions, and automated CAPI BYOH provisioning.**
+
+The first option provides a simple integration layer with minimal impact.
+
+The second option transforms the project into a full enterprise-grade lifecycle management platform but introduces significantly more complexity without changing the underlying provisioning engine.
